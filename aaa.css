@@ -1,17 +1,3 @@
-@media (max-width:480px){
-    *{
-        padding:10px;
-    }
-    article {
-        float:none;
-        width:auto;
-        height:auto;
-    }
-    aside {
-        float:none;
-        width:auto;
-    }
-}
 
 h1{
    font-size:100px;
@@ -33,3 +19,22 @@ h4{
    font-family:微軟正黑體;
    color:white; 
 }
+
+@media(max-width: 920px) {
+    .h1 .h2 .h3 .h4 {
+        background: orange;
+    }
+}
+
+@media(max-width: 768px) {
+    .h1 .h2 .h3 .h4 {
+        background: lightyellow;
+    }
+}
+
+@media(max-width: 540px) {
+    .h1 .h2 .h3 .h4 {
+        background: lightgreen;
+    }
+}
+
