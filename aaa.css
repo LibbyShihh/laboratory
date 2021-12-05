@@ -1,3 +1,16 @@
+@media screen and (min-width:500px){ 
+ .box{
+   width: 500px;
+   background-color: green;
+ }
+}
+@media screen and (min-width:1000px){ 
+ .box{
+   width: 1000px;
+   background-color: blue;
+ }
+}
+
 h1{
    font-size:100px;
    font-family:微軟正黑體;
