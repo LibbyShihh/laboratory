@@ -1,14 +1,16 @@
-@media screen and (min-width:500px){ 
- .box{
-   width: 500px;
-   background-color: green;
- }
-}
-@media screen and (min-width:1000px){ 
- .box{
-   width: 1000px;
-   background-color: blue;
- }
+@media (max-width:480px){
+    *{
+        padding:10px;
+    }
+    article {
+        float:none;
+        width:auto;
+        height:auto;
+    }
+    aside {
+        float:none;
+        width:auto;
+    }
 }
 
 h1{
